@@ -7,5 +7,15 @@ class hero{
 }
 
 let heroi = new hero("Alisson", 34, "guerreiro")
+let ataque = ""
 
-console.log(heroi)
+if (tipo = "mago"){
+    ataque = "magia"
+}else if (tipo = "guerreiro"){
+    ataque = "espada"
+}else if (tipo = "monge"){
+    ataque = "artes marciais"
+}else if (tipo = "ninja"){
+    ataque = "shuriken"
+}
+console.log("O " + tipo + " atacou usando " + ataque)
